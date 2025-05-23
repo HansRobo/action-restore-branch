@@ -23,7 +23,7 @@ inputs:
       then after the end of the job it will be removed again.
     default: false
 runs:
-  using: node12
+  using: node20
   main: dist/index.js
   post: dist/index.js
 branding:
